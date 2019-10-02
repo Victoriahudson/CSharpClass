@@ -17,7 +17,7 @@ namespace CSharpClass.Lessons
     int _myIntValue = 25000;
 
     // range -9,223,372,036,854,775,808 to 9,233,372,036,854,807
-    long _myLongValue =1234567L;
+   internal long _myLongValue =1234567L;
 
     // Intergal - Unsigned
     // range 0 -255
