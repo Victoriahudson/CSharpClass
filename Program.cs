@@ -21,9 +21,20 @@ namespace CSharpClass
             //MyLesson11Examples();
             //MyBeerSong();
             //MyLesson12Examples();
-            MyOtherLesson12Examples();
+            //MyOtherLesson12Examples();
+            MyOtherLesson12Examples2();
             //MyFormula();
         } // End Method Main
+
+        static void MyOtherLesson12Examples2()
+        {
+            Radio myRadio = new CarStereo();
+            myRadio.PlaysMusic();
+
+            CarStereo myCarStereo = new CarStereo();
+
+            myCarStereo.PlaysMusic();
+        }
 
         static void MyOtherLesson12Examples()
         {
