@@ -16,18 +16,53 @@ namespace CSharpClass
             //MyLesson7Examples();
             //MyLesson8Examples();
             //MyOtherLesson8Examples();
-            MyLesson9Examples();
+            //MyLesson9Examples();
+            //MyLesson10Examples();   
+            //MyLesson11Examples();
+            MyBeerSong();
             //MyFormula();
         } // End Method Main
-static void MyLesson9Examples()
-{
-    Lesson9 myNine = new Lesson9();
-    myNine.BasicArray();
-    myNine.MultiArraySample();
-    myNine.My3DArrayExample();
-    myNine.MyJaggedArrayExample();
 
-}// end method my lesson 9 examples
+        static void MyBeerSong()
+        {
+            BottlesOfBeer beer = new BottlesOfBeer();
+            Console.WriteLine(beer.LetsSing());
+        }
+
+        static void MyLesson11Examples()
+        {
+            Lesson11 myOtherEleven = new Lesson11(42);
+            Lesson11 myEleven = new Lesson11("Happy", 42);
+            Lesson11 MyLesson11 = new Lesson11();
+            Lesson11Struct myStruct = new Lesson11Struct(9.99m, "King", "The Stand");
+            int myValue = 14;
+            myEleven.MyBasicRefExample(ref myValue);
+            Console.WriteLine(myValue + " from program");
+
+            string first, last;
+            MyLesson11.MyBasicOutExample("Foghorn Leghorn" , out first, out last);
+            Console.WriteLine(first);
+            Console.WriteLine(last);
+
+        } // end method my lesson 11 examples
+
+        static void MyLesson10Examples()
+        {
+            Lesson10 myTen = new Lesson10();
+            myTen.BasicPublicMethod();
+            Lesson5 myFive = new Lesson5();
+            myFive._myLongValue = 12345L; // can see because its internal
+        }
+
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            myNine.BasicArray();
+            myNine.MultiArraySample();
+            myNine.My3DArrayExample();
+            myNine.MyJaggedArrayExample();
+
+        }// end method my lesson 9 examples
 
 
         static void MyOtherLesson8Examples()
