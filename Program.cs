@@ -22,9 +22,22 @@ namespace CSharpClass
             //MyBeerSong();
             //MyLesson12Examples();
             //MyOtherLesson12Examples();
-            MyOtherLesson12Examples2();
+            //MyOtherLesson12Examples2();
             //MyFormula();
+            MyHorse();
         } // End Method Main
+
+        static void MyHorse()
+        {
+            Horse myHorse = new Horse();
+            myHorse.Racing();
+
+
+            Donkey myDonkey = new Donkey();
+            myDonkey.Racing();
+        }
+
+
 
         static void MyOtherLesson12Examples2()
         {
@@ -46,7 +59,7 @@ namespace CSharpClass
         {
             Condo myCondo = new Condo();
             myCondo.DoorOpenClose();
-            
+
 
             House myHouse = new Condo();
             myHouse.DoorOpenClose();
@@ -69,7 +82,7 @@ namespace CSharpClass
             Console.WriteLine(myValue + " from program");
 
             string first, last;
-            MyLesson11.MyBasicOutExample("Foghorn Leghorn" , out first, out last);
+            MyLesson11.MyBasicOutExample("Foghorn Leghorn", out first, out last);
             Console.WriteLine(first);
             Console.WriteLine(last);
 
