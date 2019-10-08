@@ -6,9 +6,17 @@ namespace CSharpClass
     public class Sandals : Shoes
     {
         int _strapes;
-        string _colorful;
-        string _flats;   
+        //string _colorful;
+        //string _flats;   
 
+        public int Strapes
+        {
+          get { return _strapes; } 
+          set { _strapes = value; }  
+        }
+        public string _ColorFul {get; set;}
+
+        public string Flats { get; set; }
     public void protects()
     {
     // end method protects    

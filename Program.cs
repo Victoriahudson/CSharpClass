@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpClass.Lessons;
+using CSharpClass.Labs;
 
 namespace CSharpClass
 {
@@ -23,21 +24,29 @@ namespace CSharpClass
             //MyLesson12Examples();
             //MyOtherLesson12Examples();
             //MyOtherLesson12Examples2();
+            MyLesson13House();
+
             //MyFormula();
-            MyHorse();
+           // MyHorse();
         } // End Method Main
 
         static void MyHorse()
         {
             Horse myHorse = new Horse();
             myHorse.Racing();
-
-
+            Lab2 myLab = new Lab2();
+            myLab.Numbers();
             Donkey myDonkey = new Donkey();
             myDonkey.Racing();
         }
 
+        static void MyLesson13House()
+        {
+            House myHouse = new House(36, "granite");
+            Console.WriteLine(myHouse.DoorColor);
+            myHouse.RoofType = "Steel";
 
+        }
 
         static void MyOtherLesson12Examples2()
         {

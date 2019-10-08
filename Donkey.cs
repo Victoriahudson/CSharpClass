@@ -4,8 +4,12 @@ namespace CSharpClass
 {
     public class Donkey : Horse
     {
-        string _teeth;
-        string _wireyhair;
+        //string _teeth;
+        //string _wireyhair;
+
+        public string Teeth { get; set; }
+
+        public string WireyHair { get; set; }
 
         public void exportgoods()
         {
