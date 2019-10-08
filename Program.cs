@@ -24,7 +24,8 @@ namespace CSharpClass
             //MyLesson12Examples();
             //MyOtherLesson12Examples();
             //MyOtherLesson12Examples2();
-            MyLesson13House();
+            //MyLesson13House();
+            MyLesson14Examples();
 
             //MyFormula();
            // MyHorse();
@@ -39,6 +40,16 @@ namespace CSharpClass
             Donkey myDonkey = new Donkey();
             myDonkey.Racing();
         }
+
+            static void MyLesson14Examples()
+            {
+                Lesson14Static.CelsiusToFahrenheit("34.5");
+                Lesson14Static.FahrenheitToCelsius("64");
+
+                Lesson14Derived myLesson14 = new Lesson14Derived(8);
+                myLesson14.ShowResultFeet();
+                myLesson14.ShowResultMiles();
+            }
 
         static void MyLesson13House()
         {
