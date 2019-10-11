@@ -26,11 +26,24 @@ namespace CSharpClass
             //MyOtherLesson12Examples2();
             //MyLesson13House();
             //MyLesson14Examples();
-            MyLesson15Examples();
+            //MyLesson15Examples();
+            MyLesson16Examples();
 
             //MyFormula();
            // MyHorse();
         } // End Method Main
+
+        static void MyLesson16Examples()
+        {
+            Lesson16 my16 = new Lesson16();
+            my16.MyArrayListExample();
+            my16.MyHashtableExample();
+            my16.MyListExample();
+            my16.MyOtherList();
+            my16.MyDictionaryExample();
+            my16.myLinqExample();
+            my16.MyOtherLinq();
+        }
 
         static void MyLesson15Examples()
         {
