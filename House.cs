@@ -58,6 +58,6 @@ namespace CSharpClass
             Console.WriteLine("My door is {0}", doorColor);
         }
 
-    } // end classo
+    } // end class
     
 } // end namespace
