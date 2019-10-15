@@ -29,10 +29,37 @@ namespace CSharpClass
             //MyLesson14Examples();
             //MyLesson15Examples();
             //MyLesson16Examples();
-            MyTelevision();
+            //MyTelevision();
             //MyFormula();
            // MyHorse();
+           //MyLesson17Examples();
+           MyDogLab();
         } // End Method Main
+
+        static void MyDogLab()
+        {
+            DogLab MyDogLab = new DogLab();
+            MyDogLab.SmallDogToHumanYears();
+            //end method my dog lab
+        }
+
+        public delegate void TryOn(string val);
+
+        static void MyLesson17Examples()
+        {
+              Lesson17 my17 = new Lesson17("Cowboy", 7); 
+        
+              TryOn theHat = my17.TryOnHat;
+              theHat("I tried on a " + my17.HatType + " hat that was size" +
+              my17.HatSize);
+
+              Lesson17 myLesson = new Lesson17();
+
+              Lesson17 myFav17 = new Lesson17("Trucker");
+              Console.WriteLine(myFav17.myResult);
+
+              Console.WriteLine(myFav17.MyLambdaExample(6));
+        }
 
         static void MyTelevision()
         {
